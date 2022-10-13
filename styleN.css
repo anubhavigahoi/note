@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cormorant+Garamond:wght@300&family=Indie+Flower&family=Lato:ital,wght@1,300&family=Poppins:wght@400;500;600&family=Raleway+Dots&family=Raleway:ital,wght@0,400;1,200&family=Thasadith&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3c37b;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.add{
+    background-color: #c86262;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+.add:hover{
+    background: rgba(235, 89, 21, 0.87);
+}
+
+.notes{
+    background-color: #fff;
+    box-shadow: 0 0 10px 4px rgba(0,0,0,.1);
+    margin: 20px;
+    margin-top: 2rem;
+    height: 200px;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+    width: 300px;
+}
+
+.notes:hover{
+    cursor: pointer;
+    transform: translateY(-15px);
+    transition: all ease .5s;
+}
+
+.notes .tools{
+    background-color: #e28b1a;
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem .5rem;
+}
+
+.notes .tools button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    
+}
+
+.notes .main{
+    background-color: #fff;
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+}
+
+.notes textarea{
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 200px;
+    width: 100%;
+    border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+}
+
+.notes .hidden{
+    display: none;
+}
+
